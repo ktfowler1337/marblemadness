@@ -4,7 +4,7 @@ using System.Collections;
 public class CameraController : MonoBehaviour {
 
 	public GameObject player;
-	private Vector3 offset;
+	public static Vector3 offset;
 	// Use this for initialization
 	void Start () {
 		offset = transform.position;
